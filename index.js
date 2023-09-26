@@ -8,7 +8,7 @@ listTemplate.innerHTML = `
             <h1 class="todo-list__title">Todo List</h1>
             <div class="todo-list__controls">
                 <input type="text" class="todo-list__input" placeholder="Add a new task..."/>
-                <button type="button" class="todo__btn todo-list__btn">+</button>
+                <div class="todo__btn todo-list__btn">+</div>
             </div>
             <div class="todo-items"></div>
         </div>
